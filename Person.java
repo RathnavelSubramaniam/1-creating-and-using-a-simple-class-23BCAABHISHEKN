@@ -20,8 +20,8 @@ public class Person
     {
         Person1 a1 = new Person1("Jhon","Doe",30);
         Person1 a2 = new Person1("Alice","Smith",25);
-        System.out.println("Person1 : "+a1.getfullname());
-        System.out.println("Person2 : "+a2.getfullname());
+        System.out.println("Person 1 : "+a1.getfullname());
+        System.out.println("Person 2 : "+a2.getfullname());
         double b = (a1.age+a2.age)/2;
         System.out.println("Average Age : "+b);
     }
